@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../fontawesome/boxicons-2.0.9/css/boxicons.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="clock container">
+        <div class="clock-container grid">
+            <div class="clock-content grid">
+                <div class="clock-circle">
+                    <span class="clock-twelve"></span>
+                    <span class="clock-three"></span>
+                    <span class="clock-six"></span>
+                    <span class="clock-nine"></span>
+
+                    <div class="clock-rounder"></div>
+                    <div class="clock-hour" id="clock-hour"></div>
+                    <div class="clock-minutes" id="clock-minutes"></div>
+                    <div class="clock-seconds" id="clock-seconds"></div>
+
+                    <!-- Dark/light button -->
+                    <div class="clock-theme">
+                        <i class='bx bxs-moon'id="theme-button"></i>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="clock-text">
+                        <div class="clock-text-hour" id="text-hour"></div>
+                        <div class="clock-text-minutes" id="text-minutes"></div>
+                        <div class="clock-text-ampm" id="text-ampm"></div>
+                    </div>
+                    <div class="clock-date">
+                        <span id="date-day"></span>
+                        <span id="date-month"></span>
+                        <span id="date-year"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
